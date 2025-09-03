@@ -34,3 +34,33 @@ console.log(sum);
 
 
 //Sum Function using Function Expression
+
+
+const sum=(x,y)=>{
+    console.log(`Sum is : ${x+y}`);
+
+}
+sum(20,15);
+const div=(x,y)=>{
+    console.log(`Div is : ${x/y}`);
+
+}
+div(20,15);
+const mult=(x,y)=>{
+    console.log(`Multi is : ${x*y}`);
+
+}
+mult(20,15);
+const sub=(x,y)=>{
+    console.log(`Sub is : ${x-y}`);
+
+}
+sub(20,15);
+
+
+const arrowSum=(x,y)=>{
+    return x+y;
+}
+console.log(arrowSum(20,15));
+
+

@@ -1,4 +1,29 @@
 /*
+console.log(typeof 23);
+console.log(typeof 23.5);
+console.log(typeof 'Gopan Modak');
+console.log(typeof true);
+console.log(typeof null);
+console.log(typeof undefined);
+
+
+let firstName= 'Gopan Modak';
+console.log(firstName);
+console.log(typeof firstName);
+
+
+let isWorked=true;
+console.log(true);
+console.log(typeof isWorked);
+
+let salary=5000;
+console.log(salary);
+console.log(typeof salary);
+
+let parmanentWork=null;
+console.log(parmanentWork);
+console.log(typeof parmanentWork);
+
 
 const studentInfo = {
     name : 'Gopan Kumer Modak',
@@ -22,12 +47,12 @@ console.log ('Work at : ' + studentInfo['workAt'])
 //Operators
 
 let number = 5;
-let squreNumber =number*number;
-console.log('\n\n\nSqure Number is : ' + squreNumber);   //Print in Old Model.
+let squareNumber =number*number;
+console.log('\n\n\nSquare Number is : ' + squareNumber);   //Print in Old Model.
 
 let number1=parseInt(prompt('Enter a number'));
-let squreNumber1=number1*number1;
-console.log(`Squre Number Is :  ${squreNumber1}`);  //Print in dollar ($)
+let squareNumber1=number1*number1;
+console.log(`Square Number Is :  ${squareNumber1}`);  //Print in dollar ($)
 
  
 
@@ -206,36 +231,39 @@ switch (letter) {
         else{
             console.log ("Sorry, You FAILED !!")
         }
- */
-
+        
+        
+    
+    
+    
         let day=prompt("Enter a Day : ");
         switch(day){
-       case '1':
-        console.log('Satuarday');
-        break;
-
-        case '2':
-            console.log('Monday');
+            case '1':
+                console.log('Saturday');
+                break;
+                
+                case '2':
+                    console.log('Monday');
             break;
-
+            
             case '3':
                 console.log('Tuesday');
-                    break;
-
+                break;
+                
                 case '4':
                     console.log('Wednesday');
                         break;
 
                         case '5':
-                           
-                                    console.log('Friday');
-                                        break;
-                                        default:
-                                            console.log('Friday')
+                            
+                            console.log('Friday');
+                            break;
+                            default:
+                                console.log('Friday')
+                                
+                            }
 
-        }
-
-
-
-
-    
+                            
+                            
+                            
+                            */
